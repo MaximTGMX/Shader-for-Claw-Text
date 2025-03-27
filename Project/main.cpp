@@ -464,7 +464,7 @@ int main()
     if (!glfwInit())
         return -1;
 
-    GLFWwindow* window = glfwCreateWindow(800, 600, "I hate shaders", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "Claw Text", NULL, NULL);
     if (!window)
     {
         std::cerr << "Failed to create GLFW window" << std::endl;
